@@ -71,9 +71,6 @@ def contains(text1: str, text2: str) -> bool:
 
     return text2 in text1
 
-
-# Implement the required functions below.
-
 def get_winner(score1: int, score2: int) -> str:
     """Return 'player one wins,' 'player two wins,'or 'tie game' depending on
     'score1' and 'score2'
