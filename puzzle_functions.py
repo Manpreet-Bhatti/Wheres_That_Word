@@ -184,7 +184,8 @@ def check_guess(puzzle: str, direction: str, guess_word: str, row_col_num: int,
 
     if contains(word, guess_word):
         score = get_points(direction, num_words_left)
-    score = 0
+    else:
+        score = 0
 
     return score
 
