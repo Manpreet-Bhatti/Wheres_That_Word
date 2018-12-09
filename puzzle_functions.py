@@ -1,4 +1,4 @@
-"""Functions"""
+"""Functions."""
 
 # The constant describing the valid directions.
 UP = 'up'
