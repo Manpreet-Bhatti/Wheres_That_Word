@@ -1,27 +1,24 @@
-""" Where's That Word? functions. """
 
-# The constant describing the valid directions. These should be used
-# in functions get_factor and check_guess.
+
+# The constant describing the valid directions.
 UP = 'up'
 DOWN = 'down'
 FORWARD = 'forward'
 BACKWARD = 'backward'
 
 # The constants describing the multiplicative factor for finding a
-# word in a particular direction.  This should be used in get_factor.
+# word in a particular direction.
 FORWARD_FACTOR = 1
 DOWN_FACTOR = 2
 BACKWARD_FACTOR = 3
 UP_FACTOR = 4
 
-# The constant describing the threshold for scoring. This should be
-# used in get_points.
+# The constant describing the threshold for scoring.
 THRESHOLD = 5
 BONUS = 12
 
 # The constants describing two players and the result of the
-# game. These should be used as return values in get_current_player
-# and get_winner.
+# game. 
 P1 = 'player one'
 P2 = 'player two'
 P1_WINS = 'player one wins'
@@ -33,8 +30,7 @@ TIE = 'tie game'
 PUZZLE_FILE = 'puzzle1.txt'
 
 
-# Helper functions.  Do not modify these, although you are welcome to
-# call them.
+# Helper functions.
 
 def get_column(puzzle: str, col_num: int) -> str:
     """Return column col_num of puzzle.
