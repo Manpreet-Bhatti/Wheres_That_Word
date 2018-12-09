@@ -1,4 +1,4 @@
-"""Where's That Word? main program."""
+"""Main program."""
 
 from typing import List, TextIO
 from puzzle_functions import FORWARD, BACKWARD, UP, DOWN
