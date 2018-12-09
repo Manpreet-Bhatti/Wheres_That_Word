@@ -1,5 +1,3 @@
-
-
 # The constant describing the valid directions.
 UP = 'up'
 DOWN = 'down'
